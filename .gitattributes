@@ -1,0 +1,17 @@
+# 统一换行符，避免 Windows 上每次 git add 都刷一堆 "LF will be replaced by CRLF" 警告
+# 仓库内统一存 LF，跨平台协作不会产生整文件级别的假改动
+* text=auto eol=lf
+
+# 二进制文件不做换行符转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.jar binary
+*.xlsx binary
+*.zip binary
